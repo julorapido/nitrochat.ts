@@ -216,7 +216,6 @@ module.exports.deletePost = async(req : Request | any, res : Response) => {
 //         }
         
 //     }else {
-//         /// SUPPRESSION DE L'IMAGE PRÉCÉDENTE////////////////////
 //         const getPost = await PostModel.findById(req.params.id);
 //         const filename = getPost.imageUrl.split('/uploads/')[1];
 //         fs.unlink(`uploads/${filename}`, (err => {if (err) console.log(err)}));
