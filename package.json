@@ -1,7 +1,7 @@
 {
   "name": "back",
   "version": "1.0.0",
-  "description": "api",
+  "description": "nitrochat-backend",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server"
